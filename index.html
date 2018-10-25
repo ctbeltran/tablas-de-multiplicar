@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Generador de Tablas de Multiplicar</title>
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="display text-center">Generador de Tablas de Multiplicar</h1>        
+    </header>
+    <main>
+        <section class="container">
+            <div method="get" class="form-container">
+                <div class="form-group">
+                    <label for="ingresa-numero" class="">Ingresa un Número</label>
+                    <input id="ingresa-numero" class="form-control" type="number" name="ingresa-numero" >
+                </div>
+                <div class="btn-group">
+                    <button id="btn-calc" class="btn">Generar</button>
+                    <button id="btn-new" class="btn">Nuevo</button>
+                </div> 
+            </div>
+        </section>        
+        <section class="container">
+            <ul id="tablas-multiplicar" class="tablas-container"></ul>
+        </section>
+    </main>
+    <!-- JS Libraries -->
+    <script src="js/tablas.js"></script>
+</body>
+</html>

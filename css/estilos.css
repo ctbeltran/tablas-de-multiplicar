@@ -1,0 +1,102 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+p {
+    margin: 0.375rem 0 0.875rem 0;
+}
+
+hr {
+    margin: 0.5rem auto;
+    width: 90%;
+    background-color: chocolate;
+    border: solid .05rem chocolate;    
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.display {
+    font-weight: 300;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.d-block {
+    display: block;    
+}
+
+.form-container {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.form-control { 
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    min-width: 24rem;
+    height: 1.5rem;
+    border: none;
+    border-bottom: solid .1rem #333;
+}
+
+.form-control:focus {   
+    height: 2rem;  
+}
+
+.btn {
+    display: block;
+    border: solid .1rem chocolate;
+    padding: 0.5rem;
+    background-color: transparent;
+    border-radius: .25rem;     
+    width: 100%;
+    max-width: 15rem;
+    margin: 0.375rem 0.25rem;    
+}
+
+.btn:hover, .btn:focus {
+    cursor: pointer;
+    background-color: chocolate;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.tablas-container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabla-item {
+    margin: .5rem 0;
+}
